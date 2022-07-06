@@ -33,5 +33,5 @@ btn2.addEventListener("click", () => {
 });
 
 btn3.addEventListener("click", () => {
-  console.log(`Zakaz qabul qilindi ( brend nomi:Zara)`);
+  console.log(`Zakaz qabul qilindi ( brend nomi: "Zara")`);
 });
