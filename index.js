@@ -25,13 +25,16 @@ const btn2 = document.getElementById("btn2");
 const btn3 = document.getElementById("btn3");
 
 btn.addEventListener("click", () => {
+  alert("brend qoshildi");
   console.log(`Zakaz qabul qilindi ( brend nomi:Fendi)`);
 });
 
 btn2.addEventListener("click", () => {
+  alert("brend qoshildi");
   console.log(`Zakaz qabul qilindi ( brend nomi:Gucci)`);
 });
 
 btn3.addEventListener("click", () => {
+  alert("brend qoshildi");
   console.log(`Zakaz qabul qilindi ( brend nomi:Zara)`);
 });
