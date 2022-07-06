@@ -24,15 +24,26 @@
 const btn = document.getElementById("btn");
 const btn2 = document.getElementById("btn2");
 const btn3 = document.getElementById("btn3");
-
-btn.addEventListener("click", () => {
-  console.log(`Zakaz qabul qilindi ( brend nomi: "Fendi")`);
+btn.addEventListener("click", (event) => {
+  event.preventDefault();
+  list = btn.push;
+  document.getElementById(
+    "list"
+  ).innerHTML = `Zakaz qabul qilindi ( brend nomi: "Fendi")`;
 });
 
-btn2.addEventListener("click", () => {
-  console.log(`Zakaz qabul qilindi ( brend nomi: "Gucci")`);
+btn2.addEventListener("click", (event) => {
+  event.preventDefault();
+  list = btn2.push;
+  document.getElementById(
+    "list"
+  ).innerHTML = `Zakaz qabul qilindi ( brend nomi: "Gucci")`;
 });
 
-btn3.addEventListener("click", () => {
-  console.log(`Zakaz qabul qilindi ( brend nomi: "Zara")`);
+btn3.addEventListener("click", (event) => {
+  event.preventDefault();
+  btn3.push;
+  document.getElementById(
+    "list"
+  ).innerHTML = `Zakaz qabul qilindi ( brend nomi: "Zara")`;
 });
